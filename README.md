@@ -27,7 +27,7 @@ Once you are at the terminal of the instance, run the following commands or copy
 ```
 sudo dnf -y install git -y
 sudo dnf install iptables -y
-sudo yum install wget -y
+sudo dnf install wget -y
 sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm -y
 git clone https://github.com/Nyr/openvpn-install.git
 cd openvpn-install/
