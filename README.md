@@ -14,9 +14,9 @@ Ensure that you are using the free-tier instance, although if you wish to use a 
 * SSH is used for the configuration of the instance once it is running.
 * The custom UDP rule on port 1194 is for the OpenVPN configuration.
 
-Generate a key pair if you do not have one or use an existing one, then SSH to the instance to configure it.
+Generate a key pair if you do not have one or use an existing one, then launch the instance.
 
-Then allocate and associate an Elastic IP (EIP) from AWS to the running EC2 instance. This ensures that the IP address remains static for the machine.
+Allocate and associate an Elastic IP (EIP) from AWS to the running EC2 instance. This ensures that the IP address remains static for the machine.
 
 ### OpenVPN Setup
 
