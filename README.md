@@ -16,6 +16,8 @@ Ensure that you are using the free-tier instance, although if you wish to use a 
 
 Generate a key pair if you do not have one or use an existing one, then SSH to the instance to configure it.
 
+Then allocate and associate an Elastic IP (EIP) from AWS to the running EC2 instance. This ensures that the IP address remains static for the machine.
+
 ### OpenVPN Setup
 
 Ensure you have installed the [OpenVPN GUI client](https://openvpn.net/community-downloads/) on your personal machine before SSHing into the AWS instance.
