@@ -18,6 +18,8 @@ Generate a key pair if you do not have one or use an existing one, then SSH to t
 
 ### OpenVPN Setup
 
+Ensure you have installed the [OpenVPN GUI client](https://openvpn.net/community-downloads/) on your personal machine before SSHing into the AWS instance.
+
 Once you are at the terminal of the instance, run the following commands or copy and paste.
 
 ```
