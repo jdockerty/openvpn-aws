@@ -1,5 +1,5 @@
 # OpenVPN using AWS EC2 - RHEL instance.
-RHEL was chosen for learning purposes as I suspected it would be a more cumbersome configuration, although in hindsight it was not too obnoxious, thanks to the use of a [shell script to handle the OpenVPN setup.](https://github.com/Nyr/openvpn-install)
+RHEL was chosen for learning purposes as I suspected it would be a more cumbersome configuration and a chance to become more comfortable with RH, although in hindsight it was not too obnoxious, thanks to the use of a [shell script to handle the OpenVPN setup.](https://github.com/Nyr/openvpn-install) My assumption is that this will also work on CentOS, although this has not been tested.
 
 ### AWS Setup
 
